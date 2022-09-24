@@ -1,2 +1,2 @@
 #!/bin/bash
-ls . -Artls | tail -1
+find . -type f -exec stst -c | sort -nr
