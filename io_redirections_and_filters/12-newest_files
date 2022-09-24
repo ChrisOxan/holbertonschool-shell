@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -exec stst -c | sort -nr
+ls -tl . 
