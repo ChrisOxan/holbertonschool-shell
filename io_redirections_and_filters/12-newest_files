@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -t . 
+find . -type f -printf | head -10 
